@@ -19,7 +19,8 @@
       }
     ],
     "paths": {
-      "@/apply/*": ["./src/*"]
+      "@apply-up/*": ["./src/*"],
+      "@apply-up/utils": ["./src/app/utils"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
